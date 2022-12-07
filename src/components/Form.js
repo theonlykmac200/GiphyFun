@@ -1,10 +1,16 @@
-import {useState} from "react"
+
 
 const Form = (props) => {
+   
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        props.getGiphy()
+    }
     return (
-        <>
-        <h1>This is the Form Component</h1>
-        </>
+        <form onSubmit={handleSubmit}>
+            <button>Trending Giphy</button>
+        </form>
     )
 }
 
