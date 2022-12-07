@@ -5,7 +5,7 @@ import GiphyDisplay from "./components/GiphyDisplay";
 
 function App() {
 
-  const [giphy, setGiphy] = useState({});
+  const [giphy, setGiphy] = useState(null);
   const makeApiCall= async () =>{
     const GiphyUrl = 'https://api.giphy.com/v1/gifs/random?api_key=z3n8ezDFCFKYT4oMiIfQSkEbGvAZJYrf'
     const res =await fetch(GiphyUrl);
