@@ -1,5 +1,9 @@
+body{
+  background-color: lavenderblush;
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -26,6 +30,13 @@
 
 .App-link {
   color: #61dafb;
+}
+button {
+  margin: 15px;
+  height: 50px;
+  width: 200px;
+  color: blueviolet
+
 }
 
 iframe {
